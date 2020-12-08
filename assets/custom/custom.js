@@ -1,4 +1,6 @@
 // Put your custom javascript here
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
 var href = null;
 $("a").each(function()
 {
@@ -8,3 +10,4 @@ $("a").each(function()
     $(this).attr("href", href.replace("https://mybinder.org/v2/gh/data-8/textbook/gh-pages?filepath=", "https://datahub-dev.ung.co/hub/user-redirect/git-sync?repo=https://github.com/lhundt-ung/lhundt-ung.github.io&subPath="));
   }
 });
+</script>
