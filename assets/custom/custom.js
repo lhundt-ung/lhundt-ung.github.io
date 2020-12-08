@@ -1,5 +1,5 @@
 
-import $ from 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js';
+import $ from './jquery.min.js';
 
 var href = null;
 $("a").each(function()
