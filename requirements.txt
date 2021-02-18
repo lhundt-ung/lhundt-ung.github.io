@@ -1,12 +1,6 @@
-bs4
-tqdm
-notebook
-numpy
-jupyter-book
-datascience
-pyyaml
-ruamel.yaml
-nbformat
-nbclean
-nbgitpuller
--r ./binder/requirements.txt
+datascience==0.17.0
+jupyterlab
+matplotlib==3.3.4
+numpy==1.20.1
+pandas==1.2.2
+scipy==1.6.0
